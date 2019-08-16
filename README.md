@@ -13,7 +13,7 @@
 * Download our affinity matrix first.
   * Face model affinity matrix: https://drive.google.com/file/d/1IF1lZmdtCcj7Y5E-jicDh6llb4S5Ph7K/view?usp=sharing  
   * IDE model affinity matrix:  https://drive.google.com/file/d/1LzD9a2rcPh3Io6uMIvU4_65_YK3zHaCC/view?usp=sharing  
-* Please put test.json, test folder in the same folder with the arrange_file.py.
+* Please put test.json, test data in the same folder with the arrange_file.py.
 
 ```
 python3 arrange_file.py --or_dir='test'
