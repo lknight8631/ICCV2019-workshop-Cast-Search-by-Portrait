@@ -24,5 +24,5 @@ python3 ensemble_ppcc.py --test_dir='./test_id_format' --output_name='the path y
 mAP: 0.8137
 
 ## more information
-If you have any problems about our work, you may
+If you have any problems of our work, you may
 * Contact Bing-Jhang Lin by e-mail (lknight8631@gmail.com)
