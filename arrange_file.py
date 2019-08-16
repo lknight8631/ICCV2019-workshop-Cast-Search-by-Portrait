@@ -2,9 +2,7 @@ import json
 import shutil
 import os
 from PIL import Image
-# face detect
-import dlib
-from align.detector import detect_faces
+from argparse import ArgumentParser
 
 def make_dir(_path, _is_del = True):
     if _path[-1] != '/':
@@ -49,9 +47,13 @@ def candidates_writer(_src_root, _root_path, _path, _obj):
 
 if __name__ == '__main__':
     
-    data_type = 'test'
+    parser = ArgumentParser()
+    parser.add_argument("--or_dir", default='test', help="test directory")
+    args = parser.parse_args()
+
+    data_type = args.or_dir
     json_file = './' + data_type + '.json'
-    whole_path = make_dir('./' + data_type + '_dlcv_format/', True)
+    whole_path = make_dir('./' + data_type + '_id_format/', True)
     print('processing ' + data_type + ' datatset')
     # load json file
     with open(json_file, 'r') as js_file:
