@@ -21,7 +21,12 @@ python3 ensemble_ppcc.py --test_dir='./test_id_format' --output_name='the path y
 ```   
 
 ## Result
+
 mAP: 0.8137
+
+## Achievement
+
+We get the 3rd place in WIDER FACE AND PERSON CHALLENGE 2019 - Cast Search by Portrait.
 
 ## more information
 If you have any problems of our work, you may
