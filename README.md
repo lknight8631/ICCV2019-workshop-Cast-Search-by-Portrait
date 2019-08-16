@@ -11,8 +11,8 @@
 ## How to Reproduce the result
 
 * Download our affinity matrix first.
-  * Face model affinity matrix: https://blog.csdn.net/u012067966/article/details/50736647
-  * IDE model affinity matrix:  https://blog.csdn.net/u012067966/article/details/50736647
+  * Face model affinity matrix: https://drive.google.com/file/d/1IF1lZmdtCcj7Y5E-jicDh6llb4S5Ph7K/view?usp=sharing  
+  * IDE model affinity matrix:  https://drive.google.com/file/d/1LzD9a2rcPh3Io6uMIvU4_65_YK3zHaCC/view?usp=sharing  
 * Please put test.json, test folder in the same folder with the arrange_file.py.
 
 ```
