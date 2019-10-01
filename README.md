@@ -1,5 +1,8 @@
 # ICCV2019_workshop_Cast-Search-by-Portrait
 
+## News
+2019/10/28: Third Place Award in WIDER Face and Person Challenge 2019 on the cast search by portrait track.
+
 ## Requirement
 > python=3.6  
 > pytorch=1.2  
